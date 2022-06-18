@@ -1,1 +1,7 @@
-[{"id":0,"name":"Diego","email":"diego@ivan.23","password":"$2b$10$FlpEtfS4iOoi8tKSVjrFCelnn4ebGj9fPKcnj165iP1by7d5J8bg6"}]
+[
+  { "id": 0, "name": "Diego", "email": "diego@ivan.23", "password": "$2b$10$3yEYqFC3tkAePd5rcQLJwOzTWZ6siPVZbnqfdMS0H3xtsaLSgZtxe" },
+  { "id": 1, "name": "111", "email": "222", "password": "$2b$10$hZyZR9OZR/VVgJnji9klQOr65ErKW/cXXrpVxC9WGSMg/oeJW5/5W" },
+  { "id": 2, "name": "diego", "email": "1234567890pñlkjhgf", "password": "$2b$10$bLBVsfjNykb0kJU4tZf24OPcXM9Scxg6AmkD8j4g0ZCDVna6KnnrW" },
+  { "id": 3, "name": "diegoK", "email": "diego@qqq.www", "password": "$2b$10$7IxZCCiw3gIavHPORJ4Pje0T3RvSsK8m9Efd.rqqY91kO5Bbqvjja" },
+  { "id": 4, "name": "diegoKo", "email": "diego@qqq.www1", "password": "$2b$10$3yEYqFC3tkAePd5rcQLJwOzTWZ6siPVZbnqfdMS0H3xtsaLSgZtxe" }
+]
