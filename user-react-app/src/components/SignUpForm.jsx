@@ -1,15 +1,20 @@
 import React, { useState } from 'react';
-import {signUp} from '../api';
+import { signUp } from '../api';
 
 const Form = () => {
   const [userName, setUserName] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const [isSignedUp, setIsSignedUp] = useState(false);
+  const [isError, setIsError] = useState(false);
+  let body = ''
 
   const signUpUser = async (e) => {
     e.preventDefault();
-    const body = await signUp(userName, email, password);
+    body = await signUp(userName, email, password);
     console.log(body);
+    body.isAuthenticated && setIsSignedUp(true);
+    body.error && setIsError(true)
   };
 
   return (
@@ -23,6 +28,7 @@ const Form = () => {
           <button onClick={signUpUser} className="button">
             Sign Up
           </button>
+          {isSignedUp ? <div className="formResponse">You're registered</div> : <div>{body.error}</div>}
         </form>
       </div>
     </div>
