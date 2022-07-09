@@ -1,5 +1,4 @@
 [
   { "id": 0, "name": "Diego", "email": "diego@ivan.k", "password": "$2b$10$0JFARUenOrgpUOeHhCivhOfQcjQZX/iXRunOe0LnPWmZhLH0TH9ha" },
-  { "id": 1, "name": "Diego", "email": "diego@ivan.123", "password": "$2b$10$9n7L9TDIATyScAVenJiBKevmiutL3q/MLywbhTiXPxAPIM0evvIyO" },
-  { "id": 2, "name": "1", "email": "1", "password": "$2b$10$/oWG.tSSHJ1aRBcjiPn/9.SCMqibeDr8oWRox8rZXbQKR.C8dbP/K" }
+  { "id": 1, "name": "Diego", "email": "diego@ivan.123", "password": "$2b$10$9n7L9TDIATyScAVenJiBKevmiutL3q/MLywbhTiXPxAPIM0evvIyO" }
 ]
