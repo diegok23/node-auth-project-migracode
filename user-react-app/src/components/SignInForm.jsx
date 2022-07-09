@@ -27,7 +27,7 @@ const Form = () => {
           <div className="mainContainer">
             <form className="formContainer">
               <input className="form-field" type="text" placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)} />
-              <input className="form-field" type="text" placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)} />
+              <input className="form-field" type="password" placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)} />
               <button onClick={signInUser} className="button">
                 Sign In
               </button>
