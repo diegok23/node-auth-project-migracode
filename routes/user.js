@@ -68,10 +68,7 @@ router.post('/sign-in', async (req, res) => {
       return res.status(401).json({ error: 'Invalid Credential', isAuthenticated: false });
     }
 
-    // if the password matches with hashed password then we generate a new token and send it back to user
-    const jwtToken = generateJWT(user[0].id);
-
-    return res.status(200).send({ jwtToken, isAuthenticated: true });
+    // if the password matches with hashed pausersDb.push(newUser); /    return res.status(200).send({ jwtToken, isAuthenticated: true });
   } catch (error) {
     console.error(error.message);
     res.status(500).send({ error: error.message });
